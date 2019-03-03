@@ -1,0 +1,25 @@
+Result for running dominion tests:
+randomtestcard1.c:
+Testing numHandCards.
+numHandCards(): TEST SUCCESSFULLY COMPLETED
+G.handCount of player 0 = 299, expected = 299
+File 'dominion.c'
+Lines executed:16.43% of 566
+Branches executed:15.64% of 422
+Taken at least once:12.80% of 422
+Calls executed:8.33% of 96
+Creating 'dominion.c.gcov'
+
+randomtestcard2.c:
+Testing isGameOver.
+isGameOver(): TEST SUCCESSFULLY COMPLETED
+G.supplyCount of Province = 0; expected = 0
+isGameOver(): TEST SUCCESSFULLY COMPLETED
+3 supply piles are 0, function returns 1; expected = 1
+File 'dominion.c'
+Lines executed:3.18% of 566
+Branches executed:4.74% of 422
+Taken at least once:3.79% of 422
+Calls executed:2.08% of 96
+Creating 'dominion.c.gcov'
+
