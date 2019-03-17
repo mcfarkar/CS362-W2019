@@ -1,0 +1,12 @@
+Result for running dominion tests:
+randomtestcard1.c:
+Testing numHandCards.
+numHandCards(): TEST SUCCESSFULLY COMPLETED
+G.handCount of player 2 = 426, expected = 426
+File 'dominion.c'
+Lines executed:16.61% of 566
+Branches executed:16.11% of 422
+Taken at least once:13.03% of 422
+Calls executed:8.33% of 96
+Creating 'dominion.c.gcov'
+

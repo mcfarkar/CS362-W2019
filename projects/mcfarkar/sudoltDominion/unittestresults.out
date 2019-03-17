@@ -1,0 +1,48 @@
+Result for running dominion tests:
+unittest1.c:
+Testing numHandCards.
+numHandCards(): TEST SUCCESSFULLY COMPLETED
+G.handCount of player 3 = 15, expected = 15
+File 'dominion.c'
+Lines executed:16.67% of 564
+Branches executed:16.31% of 417
+Taken at least once:13.19% of 417
+Calls executed:8.42% of 95
+Creating 'dominion.c.gcov'
+
+unittest2.c:
+Testing isGameOver.
+TEST SUCCESSFULLY COMPLETED
+G.supplyCount of Province = 0; expected = 0
+TEST SUCCESSFULLY COMPLETED
+3 supply piles are 0, function returns 1; expected = 1
+File 'dominion.c'
+Lines executed:17.55% of 564
+Branches executed:18.23% of 417
+Taken at least once:14.87% of 417
+Calls executed:7.37% of 95
+Creating 'dominion.c.gcov'
+
+unittest3.c:
+Testing gainCard.
+Test if supply pile is empty: TEST SUCCESSFULLY COMPLETED
+Test if card is not used in game: TEST SUCCESSFULLY COMPLETED
+Test if card was correctly discarded and supply decremented: G.supplyCount 0; expected = 0
+G.discardCount for player 2: 1; expected = 1
+G.discard[p][ G.discardCount[p] ] for player 2: 7; expected = 7
+TEST SUCCESSFULLY COMPLETED
+Test if card was correctly added to deck and supply decremented: G.supplyCount 0; expected = 0
+G.deckCount for player 2: 21; expected = 21
+G.deck[p][ G.deckCount[p] ] for player 2: 7; expected = 7
+TEST SUCCESSFULLY COMPLETED
+Test if card was correctly added to hand and supply decremented: G.supplyCount 0; expected = 0
+G.handCount for player 2: 11; expected = 11
+G.hand[p][ G.handCount[p] ] for player 2: 16; expected = 16
+TEST SUCCESSFULLY COMPLETED
+File 'dominion.c'
+Lines executed:18.62% of 564
+Branches executed:17.75% of 417
+Taken at least once:14.63% of 417
+Calls executed:8.42% of 95
+Creating 'dominion.c.gcov'
+
